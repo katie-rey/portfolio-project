@@ -4,7 +4,10 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark justify-content-end">
+    <nav
+      fixed="top"
+      className="navbar navbar-custom fixed-top navbar-expand-lg  justify-content-end"
+    >
       <div className="container ">
         {/* <div className="container-fluid justify-content-end"> */}
         <a className="navbar-brand d-flex align-items-center" href={Navbar}>
@@ -19,7 +22,7 @@ function Navbar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <FontAwesomeIcon icon={faBars} style={{ color: '#ffff' }} />
+          <FontAwesomeIcon icon={faBars} style={{ color: '#ffffff' }} />
         </button>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
