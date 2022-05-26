@@ -76,6 +76,7 @@ button .navbar-toggler {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* margin-top: 10vh; */
 }
 
 /*------Particles-----*/
@@ -94,8 +95,12 @@ button .navbar-toggler {
   justify-content: center;
   height: 10%;
   min-height: fit-content;
+  margin-top: 15vh;
 }
 
+.profile-details {
+  margin-top: 10vh;
+}
 .profile-parent {
   display: flex;
   align-items: center;
