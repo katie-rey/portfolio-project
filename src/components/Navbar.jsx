@@ -1,4 +1,6 @@
 import React from 'react'
+import About from '../components/About'
+import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 
@@ -34,12 +36,12 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <a className="nav-link" href={Navbar}>
-                About
+                Portfolio
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href={Navbar}>
-                Portfolio
+              <a className="nav-link" href="/About">
+                About
               </a>
             </li>
             <li className="nav-item">

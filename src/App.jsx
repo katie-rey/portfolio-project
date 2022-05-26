@@ -1,3 +1,5 @@
+import React from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min.js'
@@ -12,13 +14,18 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <>
+    <Router>
       <Navbar fixed="top" />
       {/* <ParticlesContainer /> */}
       <Header />
-      {/* <About /> */}
-      {/* <Portfolio /> */}
-    </>
+      <About />
+      <Routes>
+        <Route path="/about" element={<About />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+      </Routes>
+
+      <Footer />
+    </Router>
   )
 }
 

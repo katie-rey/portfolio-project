@@ -151,8 +151,6 @@ export default function Header() {
           detectRetina: true,
         }}
       />
-      <About />
-      <Footer />
     </div>
   )
 }

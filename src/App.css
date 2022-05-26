@@ -7,7 +7,14 @@
   --dark-purple: #1a1d29;
 }
 
+#root {
+  background-color: #5c6691;
+  background: linear-gradient(0deg, rgba(92, 102, 145, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
 .body {
+  background-color: #5c6691;
+  background: linear-gradient(0deg, rgba(92, 102, 145, 1) 0%, rgba(0, 0, 0, 1) 100%);
   font-family: 'Roboto Condensed' sans-serif;
   color: var(--primary-white);
 }
@@ -62,8 +69,7 @@ button .navbar-toggler {
 .header-wrapper {
   position: relative;
   /* background-image: url('./assets/wall-and-laptop-background.jpg'); */
-  background-color: #5c6691;
-  background: linear-gradient(0deg, rgba(92, 102, 145, 1) 0%, rgba(0, 0, 0, 1) 100%);
+
   background-size: cover;
   /* background-position: center; */
   min-height: fit-content;
@@ -294,7 +300,7 @@ button .navbar-toggler {
   width: 80vh;
   content: ' ';
   position: absolute;
-  transform: translate3d(-330px, -380px, 0);
+  transform: translate3d(-330px, -350px, 0);
 
   border: 3px solid var(--pink);
   box-sizing: border-box;
@@ -304,11 +310,22 @@ button .navbar-toggler {
 }
 
 .about-skills {
-  margin-right: 15rem;
+  /* margin-right: 15rem; */
   padding: 2rem;
   background-color: var(--pink);
   width: 40vh;
   height: 50vh;
+}
+
+.about-skills:after {
+  width: 40vh;
+  height: 50vh;
+  content: ' ';
+  position: absolute;
+  transform: translate3d(-150px, -340px, 0);
+
+  border: 3px solid var(--dark-purple);
+  box-sizing: border-box;
 }
 
 .arrow-up {
