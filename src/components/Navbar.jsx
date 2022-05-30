@@ -30,12 +30,12 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto ">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href={Navbar}>
+              <a className="nav-link active" aria-current="page" href="/">
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href={Navbar}>
+              <a className="nav-link" href="/portfolio">
                 Portfolio
               </a>
             </li>

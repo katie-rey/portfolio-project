@@ -17,9 +17,10 @@ function App() {
     <Router>
       <Navbar fixed="top" />
       {/* <ParticlesContainer /> */}
-      <Header />
-      <About />
+      {/* <Header /> */}
+
       <Routes>
+        <Route path="/" element={<Header />} />
         <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
       </Routes>
