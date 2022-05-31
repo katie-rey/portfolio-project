@@ -13,6 +13,7 @@ import Portfolio from './components/Portfolio'
 import Footer from './components/Footer'
 
 function App() {
+  console.log('hello test')
   return (
     <Router>
       <Navbar fixed="top" />
