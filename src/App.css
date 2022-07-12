@@ -285,8 +285,8 @@ button .navbar-toggler {
 .about-parent {
   /* background-color: #b8bccd; */
   /* background-color: #3b425e; */
-  background-color: #333952;
-  height: 50vh;
+  /* background-color: #333952; */
+  /* height: 30vh; */
   width: 80vh;
   /* position: relative;
   left: -1rem;
@@ -297,7 +297,7 @@ button .navbar-toggler {
   margin-bottom: 15rem;
 }
 
-.about-parent:after {
+/* .about-parent:after {
   height: 50vh;
   width: 80vh;
   content: ' ';
@@ -306,9 +306,9 @@ button .navbar-toggler {
 
   border: 3px solid var(--pink);
   box-sizing: border-box;
-}
+} */
 .about-details {
-  padding: 5rem;
+  padding: 3rem;
 }
 
 .about-skills {
@@ -384,6 +384,16 @@ button .navbar-toggler {
 
 /*----footer----*/
 
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  min-height: 50px;
+  position: absolute;
+  bottom: 0;
+  background-color: var(--primary-purple);
+}
 .footer-links {
   background-color: aliceblue;
   width: 30rem;
@@ -400,3 +410,23 @@ button .navbar-toggler {
   width: 30rem;
   height: 4rem;
 }
+
+.portfolio-wrapper {
+  margin: 100px;
+}
+
+/* .portfolio-card {
+  max-width: 30vh;
+  margin: 40px;
+} */
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+/* .col {
+  max-width: 20vh;
+  margin: 200px;
+} */

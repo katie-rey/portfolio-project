@@ -4,6 +4,8 @@ import { loadFull } from 'tsparticles'
 import Typical from 'react-typical'
 import About from './About'
 import Footer from './Footer'
+import Portfolio from './Portfolio'
+
 // const ParticlesContainer = () => {
 
 export default function Header() {
@@ -151,6 +153,8 @@ export default function Header() {
           detectRetina: true,
         }}
       />
+      <About />
+      <Portfolio />
     </div>
   )
 }

@@ -3,6 +3,9 @@ import About from '../components/About'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
+import FormGroup from '@mui/material/FormGroup'
+import FormControlLabel from '@mui/material/FormControlLabel'
+import Switch from '@mui/material/Switch'
 
 function Navbar() {
   return (
@@ -15,6 +18,9 @@ function Navbar() {
         <a className="navbar-brand d-flex align-items-center" href={Navbar}>
           Katie Rey
         </a>
+        <FormGroup>
+          <FormControlLabel control={<Switch defaultChecked />} label="Dark Mode" />
+        </FormGroup>
         <button
           className="navbar-toggler ml-auto "
           type="button"

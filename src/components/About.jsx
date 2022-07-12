@@ -30,9 +30,19 @@ export default function About() {
 
             {/* <div class="arrow-up"></div> */}
           </div>
+          <div className="about-details">
+            <h2>Stack</h2>
+            <p className="primary-text">
+              Javascript ~ React ~ Redux ~ webpack ~ node ~ npm ~ Express ~ SQLite3 ~ MongoDB ~
+              Netlify ~ Heroku ~ Github
+            </p>
+            <p className="primary-text">HTML ~ CSS ~ Bootstrap ~ MUI </p>
+
+            {/* <div class="arrow-up"></div> */}
+          </div>
         </div>
       </div>
-      <div className="about-skills">
+      {/* <div className="about-skills">
         <Typography sx={{ mt: 4, mb: 2 }} variant="h6" component="div">
           Tech Skills
         </Typography>
@@ -69,7 +79,7 @@ export default function About() {
             <ListItemText primary="Next.js" />
           </ListItem>
         </List>
-      </div>
+      </div> */}
     </div>
   )
 }

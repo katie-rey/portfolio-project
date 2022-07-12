@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -13,6 +13,8 @@ import Portfolio from './components/Portfolio'
 import Footer from './components/Footer'
 
 function App() {
+  const [theme, setTheme] = useState('light')
+
   console.log('hello test')
   return (
     <Router>
@@ -22,11 +24,11 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Header />} />
-        <Route path="/about" element={<About />} />
+        {/* <Route path="/about" element={<About />} /> */}
         <Route path="/portfolio" element={<Portfolio />} />
       </Routes>
 
-      <Footer />
+      {/* <Footer /> */}
     </Router>
   )
 }
