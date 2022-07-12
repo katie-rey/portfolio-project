@@ -47,10 +47,10 @@ function PortfolioCard() {
         </Col>
         <Col>
           <Card>
-            <Card.Img class="card-image-top" variant="top" src={portfolio.id_4.image} />
+            <Card.Img class="card-image-top" variant="top" src={portfolio.id_5.image} />
             <Card.Body>
-              <Card.Title>{portfolio.id_4.title}</Card.Title>
-              <Card.Text>{portfolio.id_4.desc}</Card.Text>
+              <Card.Title>{portfolio.id_5.title}</Card.Title>
+              <Card.Text>{portfolio.id_5.desc}</Card.Text>
             </Card.Body>
           </Card>
         </Col>

@@ -19,6 +19,16 @@ const portfolio = {
     title: 'My final group project at Dev Academy',
     desc: 'A web app connecting service businesses with customers.',
   },
+  id_5: {
+    image: '/play.png',
+    title: 'A simple fun game built with JS',
+    desc: 'A web app connecting service businesses with customers.',
+  },
+  id_6: {
+    image: '/surf.png',
+    title: 'My final group project at Dev Academy',
+    desc: 'A web app connecting service businesses with customers.',
+  },
 }
 
 export default portfolio
