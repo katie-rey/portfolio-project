@@ -30,13 +30,12 @@ export default function About() {
 
             {/* <div class="arrow-up"></div> */}
           </div>
-          <div className="about-details">
-            <h2>Stack</h2>
-            <p className="primary-text">
-              Javascript ~ React ~ Redux ~ webpack ~ node ~ npm ~ Express ~ SQLite3 ~ MongoDB ~
-              Netlify ~ Heroku ~ Github
-            </p>
-            <p className="primary-text">HTML ~ CSS ~ Bootstrap ~ MUI </p>
+          <div className="about-details-stack">
+            <span className="techstack-text">
+              Javascript · React · Redux · webpack · node · npm · Express · SQLite3 · MongoDB ·
+              Netlify · Github
+            </span>
+            <span className="primary-text">HTML · CSS · Bootstrap · MUI · Bulma · Flowbite </span>
 
             {/* <div class="arrow-up"></div> */}
           </div>

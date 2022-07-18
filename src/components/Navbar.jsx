@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { useSelector, useDispatch } from 'react-redux'
 import About from '../components/About'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -6,8 +7,21 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
 import FormGroup from '@mui/material/FormGroup'
 import FormControlLabel from '@mui/material/FormControlLabel'
 import Switch from '@mui/material/Switch'
+import { changeTheme } from '../features/theme/themeSlice'
 
 function Navbar() {
+  const [checked, setChecked] = useState(false)
+  const theme = useSelector((state) => state.theme.value)
+  const dispatch = useDispatch()
+
+  const handleChange = (e) => {
+    setChecked(e.target.checked)
+    console.log(checked)
+    dispatch(changeTheme(checked))
+  }
+
+  console.log(theme)
+
   return (
     <nav
       fixed="top"
@@ -19,7 +33,10 @@ function Navbar() {
           Katie Rey
         </a>
         <FormGroup>
-          <FormControlLabel control={<Switch defaultChecked />} label="Dark Mode" />
+          <FormControlLabel
+            control={<Switch checked={checked} onChange={handleChange} defaultChecked />}
+            label="Fun Mode"
+          />
         </FormGroup>
         <button
           className="navbar-toggler ml-auto "
