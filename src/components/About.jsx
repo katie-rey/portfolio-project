@@ -14,6 +14,7 @@ export default function About() {
 
   return (
     <div className="about-wrapper">
+      <div className="about-side"></div>
       <div className="about-container">
         <div className="about-parent">
           <div className="about-details">
@@ -43,42 +44,43 @@ export default function About() {
       </div>
       {/* <div className="about-skills">
         <Typography sx={{ mt: 4, mb: 2 }} variant="h6" component="div">
-          Tech Skills
+        Tech Skills
         </Typography>
-
+        
         <List dense={dense}>
-          <ListItem>
-            <ListItemIcon>
-              <Javascript />
-            </ListItemIcon>
-            <ListItemText primary="Javascript" />
-          </ListItem>
-          <ListItem>
-            <ListItemIcon>
-              <Javascript />
-            </ListItemIcon>
-            <ListItemText primary="React/Redux" />
-          </ListItem>
-          <ListItem>
-            <ListItemIcon>
-              <Javascript />
-            </ListItemIcon>
-            <ListItemText primary="SQLite with Knex" />
-          </ListItem>
-          <ListItem>
-            <ListItemIcon>
-              <Javascript />
-            </ListItemIcon>
-            <ListItemText primary="HTML/CSS" />
-          </ListItem>
-          <ListItem>
-            <ListItemIcon>
-              <Javascript />
-            </ListItemIcon>
-            <ListItemText primary="Next.js" />
-          </ListItem>
+        <ListItem>
+        <ListItemIcon>
+        <Javascript />
+        </ListItemIcon>
+        <ListItemText primary="Javascript" />
+        </ListItem>
+        <ListItem>
+        <ListItemIcon>
+        <Javascript />
+        </ListItemIcon>
+        <ListItemText primary="React/Redux" />
+        </ListItem>
+        <ListItem>
+        <ListItemIcon>
+        <Javascript />
+        </ListItemIcon>
+        <ListItemText primary="SQLite with Knex" />
+        </ListItem>
+        <ListItem>
+        <ListItemIcon>
+        <Javascript />
+        </ListItemIcon>
+        <ListItemText primary="HTML/CSS" />
+        </ListItem>
+        <ListItem>
+        <ListItemIcon>
+        <Javascript />
+        </ListItemIcon>
+        <ListItemText primary="Next.js" />
+        </ListItem>
         </List>
       </div> */}
+<div className="about-side"></div>
     </div>
   )
 }
