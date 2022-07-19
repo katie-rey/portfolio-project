@@ -285,6 +285,7 @@ button .navbar-toggler {
 .about-container {
   display: flex;
   align-items: center;
+  margin-top: 5rem;
   /* border-radius: 20%; */
   /* border: 0.25rem solid;
   border-color: var(--pink);
@@ -419,6 +420,7 @@ button .navbar-toggler {
 .portfolio-wrapper {
   margin: 50px;
   padding-bottom: 5rem;
+  background-color: #1a1d29;
 }
 
 /* .portfolio-card {
@@ -449,7 +451,8 @@ h1 {
   color: #fff;
 }
 .portfolio {
-  background-color: var(--dark-purple);
+  /* background-color: var(--dark-purple); */
+  background-color: #1a1d29;
 }
 
 .portfolio-container {
@@ -468,23 +471,28 @@ h1 {
   min-height: 200px;
   /* position: absolute;
   bottom: 0; */
-  background-color: var(--primary-purple);
-  margin-top: 150px;
+  background-color: #1a1d29;
+  margin-top: 80px;
   z-index: 21;
 }
 .footer-links {
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
   width: 30rem;
+  color: aliceblue;
   /* height: 4rem; */
 }
 
 .footer-logo {
-  background-color: yellow;
+  background-image: url('./assets/squiggle-dark.png');
   width: 20rem;
   /* height: 4rem; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .footer-social {
-  background-color: violet;
+  /* background-color: violet; */
+  color: aliceblue;
   width: 30rem;
   /* height: 4rem; */
 }

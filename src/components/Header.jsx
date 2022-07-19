@@ -162,17 +162,7 @@ export default function Header() {
         <></>
       )}
 
-      <div className="skills-wrapper">
-        {/* <div className="about-details-stack"> */}
-        <span className="techstack-text">
-          Javascript · React · Redux · webpack · node · npm · Express · SQLite3 · MongoDB · Netlify
-          · Github
-        </span>
-        <span className="primary-text">HTML · CSS · Bootstrap · MUI · Bulma · Flowbite </span>
-
-        {/* <div class="arrow-up"></div> */}
-        {/* </div> */}
-      </div>
+      
 
       <About />
       <Portfolio />
