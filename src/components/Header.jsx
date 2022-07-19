@@ -6,6 +6,7 @@ import Typical from 'react-typical'
 import About from './About'
 import Footer from './Footer'
 import Portfolio from './Portfolio'
+import Contact from './ContactForm'
 
 // const ParticlesContainer = () => {
 
@@ -71,9 +72,9 @@ export default function Header() {
                 </span>
               </div>
               <div className="profile-options">
-                <button className="btn primary-btn">Hire Me</button>
-                <a href="#" className="resume" download="Katie katie-rey-cv">
-                  <button className="btn highlighted-btn">Get Resume</button>
+                <button className="btn btn-dark highlighted-btn">Hire Me</button>
+                <a href="#" className="resume primary-text" download="Katie katie-rey-cv">
+                  <button className="btn btn-dark highlighted-btn ">Get Resume</button>
                 </a>
               </div>
             </div>
@@ -161,8 +162,21 @@ export default function Header() {
         <></>
       )}
 
+      <div className="skills-wrapper">
+        {/* <div className="about-details-stack"> */}
+        <span className="techstack-text">
+          Javascript · React · Redux · webpack · node · npm · Express · SQLite3 · MongoDB · Netlify
+          · Github
+        </span>
+        <span className="primary-text">HTML · CSS · Bootstrap · MUI · Bulma · Flowbite </span>
+
+        {/* <div class="arrow-up"></div> */}
+        {/* </div> */}
+      </div>
+
       <About />
       <Portfolio />
+      {/* <Contact /> */}
     </div>
   )
 }

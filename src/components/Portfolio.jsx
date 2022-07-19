@@ -7,6 +7,9 @@ export default function Portfolio() {
 
   return (
     <div className="portfolio-wrapper">
+      <div className="portfolio-title">
+        <h2>Portfolio</h2>
+      </div>
       <div className="portfolio-container">
         <PortfolioCard />
       </div>

@@ -28,7 +28,7 @@ function App() {
         <Route path="/portfolio" element={<Portfolio />} />
       </Routes>
 
-      {/* <Footer /> */}
+      <Footer />
     </Router>
   )
 }

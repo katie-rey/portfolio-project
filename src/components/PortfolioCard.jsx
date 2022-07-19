@@ -20,10 +20,10 @@ function PortfolioCard() {
         </Col>
         <Col>
           <Card>
-            <Card.Img class="card-image-top" variant="top" src={portfolio.id_2.image} />
+            <Card.Img class="card-image-top" variant="top" src={portfolio.id_4.image} />
             <Card.Body>
-              <Card.Title>{portfolio.id_2.title}</Card.Title>
-              <Card.Text>{portfolio.id_2.desc}</Card.Text>
+              <Card.Title>{portfolio.id_4.title}</Card.Title>
+              <Card.Text>{portfolio.id_4.desc}</Card.Text>
             </Card.Body>
           </Card>
         </Col>
@@ -38,10 +38,10 @@ function PortfolioCard() {
         </Col>
         <Col>
           <Card>
-            <Card.Img class="card-image-top" variant="top" src={portfolio.id_4.image} />
+            <Card.Img class="card-image-top" variant="top" src={portfolio.id_2.image} />
             <Card.Body>
-              <Card.Title>{portfolio.id_4.title}</Card.Title>
-              <Card.Text>{portfolio.id_4.desc}</Card.Text>
+              <Card.Title>{portfolio.id_2.title}</Card.Title>
+              <Card.Text>{portfolio.id_2.desc}</Card.Text>
             </Card.Body>
           </Card>
         </Col>
@@ -56,10 +56,10 @@ function PortfolioCard() {
         </Col>
         <Col>
           <Card>
-            <Card.Img class="card-image-top" variant="top" src={portfolio.id_4.image} />
+            <Card.Img class="card-image-top" variant="top" src={portfolio.id_6.image} />
             <Card.Body>
-              <Card.Title>{portfolio.id_4.title}</Card.Title>
-              <Card.Text>{portfolio.id_4.desc}</Card.Text>
+              <Card.Title>{portfolio.id_6.title}</Card.Title>
+              <Card.Text>{portfolio.id_6.desc}</Card.Text>
             </Card.Body>
           </Card>
         </Col>

@@ -1,32 +1,32 @@
 const portfolio = {
   id_1: {
-    image: '/surf.png',
+    image: '/surf22.png',
     title: 'Piha Surf Report',
     desc: 'A lorum ipsujm dfnlih dnl d lkhlhd lkhlhd lkhd lkh ld',
   },
   id_2: {
-    image: '/shop.png',
-    title: 'An interactive personalised shopping list',
+    image: '/shop2.png',
+    title: 'An personalised pantry and shopping list',
     desc: 'A lorum ipsujm dfnlih dnl d lkhlhd lkhlhd lkhd lkh ld',
   },
   id_3: {
-    image: '/feedback.png',
+    image: '/feedback2.png',
     title: 'A react feedback app',
     desc: 'A lorum ipsujm dfnlih dnl d lkhlhd lkhlhd lkhd lkh ld',
   },
   id_4: {
-    image: '/serv.png',
+    image: '/serv2.png',
     title: 'My final group project at Dev Academy',
     desc: 'A web app connecting service businesses with customers.',
   },
   id_5: {
-    image: '/play.png',
+    image: '/play2.png',
     title: 'A simple fun game built with JS',
     desc: 'A web app connecting service businesses with customers.',
   },
   id_6: {
-    image: '/surf.png',
-    title: 'My final group project at Dev Academy',
+    image: '/scrabble.png',
+    title: 'Personalise and track your scrabble score',
     desc: 'A web app connecting service businesses with customers.',
   },
 }
