@@ -12,6 +12,8 @@ import About from './components/About'
 import Portfolio from './components/Portfolio'
 import Footer from './components/Footer'
 import Contact from './components/Contact'
+import PortfolioCard from './components/PortfolioCard'
+import PortfolioCardItem from './components/PortfolioCardItem'
 
 function App() {
   const [theme, setTheme] = useState('light')
@@ -26,9 +28,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Header />} />
         {/* <Route path="/about" element={<About />} /> */}
-        <Route path="/portfolio" element={<Portfolio />} />
+        {/* <Route path="/portfolio" element={<Portfolio />} /> */}
+        <Route path="/Card" element={<PortfolioCardItem />} />
       </Routes>
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
     </Router>
   )

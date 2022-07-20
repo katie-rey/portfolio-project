@@ -164,6 +164,7 @@ export default function Header() {
 
       <About />
       <Portfolio />
+      <Contact />
     </div>
   )
 }

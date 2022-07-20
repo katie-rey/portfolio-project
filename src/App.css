@@ -26,6 +26,10 @@ html,
   min-width: 100%;
 }
 
+.tsparticles {
+  max-width: 60%;
+}
+
 /*-------Nav------*/
 
 .navbar {
@@ -396,6 +400,21 @@ h1 {
 .portfolio-card {
   padding: 3rem;
 }
+
+/*----portfolio card item----*/
+
+.card-item-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+padding: 12rem 0rem;
+}
+
+.portfolio-card-item {
+  padding-top: 5rem;
+}
+
 /*----footer----*/
 
 .footer-container {
@@ -409,6 +428,7 @@ h1 {
   background-color: #1a1d29;
 
   /* margin-top: 80px; */
+  position: relative;
   z-index: 900;
 }
 .footer-links {
@@ -622,11 +642,15 @@ input:-internal-autofill-selected {
     min-height: 140px;
   }
   .footer-links {
+    font-size: 1rem;
+    margin-top: 1rem;
     flex-direction: row;
     justify-content: space-around;
     width: auto;
   }
   .footer-social {
+    font-size: 1rem;
+    margin-bottom: 1rem;
     flex-direction: row;
     width: auto;
   }
@@ -644,6 +668,9 @@ input:-internal-autofill-selected {
   .card-text {
     display: none;
   }
+  .footer-links {
+    font-size: 2rem;
+}
 }
 
 @media screen and (max-width: 375px) {
