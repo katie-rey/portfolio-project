@@ -1,6 +1,6 @@
 const portfolio = {
   id_1: {
-    image: '/surf.png',
+    image: '/surfNew.png',
     title: 'Piha Surf Report',
     desc: 'A lorum ipsujm dfnlih dnl d lkhlhd lkhlhd lkhd lkh ld',
   },

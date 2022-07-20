@@ -6,7 +6,7 @@ import Typical from 'react-typical'
 import About from './About'
 import Footer from './Footer'
 import Portfolio from './Portfolio'
-import Contact from './ContactForm'
+import Contact from './Contact'
 
 // const ParticlesContainer = () => {
 
@@ -162,11 +162,8 @@ export default function Header() {
         <></>
       )}
 
-      
-
       <About />
       <Portfolio />
-      {/* <Contact /> */}
     </div>
   )
 }

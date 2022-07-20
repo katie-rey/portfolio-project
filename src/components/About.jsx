@@ -13,12 +13,12 @@ export default function About() {
   const [secondary, setSecondary] = React.useState(false)
 
   return (
-    <div className="about-wrapper">
+    <div id="about" className="about-wrapper">
       <div className="about-side"></div>
       <div className="about-container">
         <div className="about-parent">
           <div className="about-details">
-            <h2>About Me</h2>
+            <h2 className="about">About Me</h2>
             <p className="primary-text">
               {''}I am a recent graduate of the Enspiral Dev Academy, an intense and immersive 15
               week bootcamp, designed to produce awesome full stack developers.{' '}
@@ -80,7 +80,7 @@ export default function About() {
         </ListItem>
         </List>
       </div> */}
-<div className="about-side"></div>
+      <div className="about-side"></div>
     </div>
   )
 }

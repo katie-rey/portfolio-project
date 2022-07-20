@@ -5,6 +5,7 @@
   --primary-purple: #5c6691;
   --pink: #fc6894;
   --dark-purple: #1a1d29;
+  --mid-purple: #24283a;
 }
 
 #root {
@@ -29,7 +30,13 @@ html,
 .navbar {
   /* background-color: #5c6691 !important; */
   /* background-color: black !important; */
+  transition: 1s;
 }
+
+.navbar.scrolled {
+  background-color: var(--dark-purple) !important;
+}
+
 nav a.nav-link {
   font-weight: 500;
   letter-spacing: 0.0375rem;
@@ -51,6 +58,11 @@ nav ul li {
   padding: 0;
   height: 6rem;
 }
+
+.navbar-brand:hover {
+  color: Var(--pink) !important;
+}
+
 button .navbar-toggler {
   color: #fff;
 }
@@ -61,11 +73,16 @@ button .navbar-toggler {
   color: #fff;
 }
 .nav-link:hover {
-  color: aquamarine !important;
+  color: Var(--pink) !important;
 }
 .svg-inline--fa {
   color: #fff;
 }
+
+.switch.checked {
+  color: var(--pink) !important;
+}
+
 .header-wrapper {
   position: relative;
   /* background-image: url('./assets/wall-and-laptop-background.jpg'); */
@@ -220,6 +237,13 @@ button .navbar-toggler {
   }
 }
 
+@media screen and (max-width: 1480px) {
+  .about-side {
+    max-width: 150px;
+    max-height: 150px;
+  }
+}
+
 @media screen and (max-width: 910px) {
   .profile-picture {
     height: 320px;
@@ -268,10 +292,6 @@ button .navbar-toggler {
 /*----About----*/
 
 .about-wrapper {
-  /* display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center; */
   display: flex;
   align-items: center;
   text-align: center;
@@ -279,13 +299,13 @@ button .navbar-toggler {
   /* margin-top: 4rem;
   margin-bottom: 4rem; */
   min-height: fit-content;
-  background-color: #1a1d29;
+  /* background-color: #1a1d29; */
 }
 
 .about-container {
   display: flex;
   align-items: center;
-  margin-top: 5rem;
+  margin-top: 2rem;
   /* border-radius: 20%; */
   /* border: 0.25rem solid;
   border-color: var(--pink);
@@ -297,9 +317,22 @@ button .navbar-toggler {
   /* width: 100vh; */
 }
 
+h2.about {
+  margin-bottom: 3rem;
+}
+
 .about-side {
+  display: flex;
+
+  align-items: center;
   background-image: url('./assets/lightening-dark.png');
+  background-size: cover;
+
   border-radius: 50%;
+  box-shadow: 0 2px 0px 0px var(--white);
+  background-repeat: no-repeat;
+  background-position: center;
+
   min-height: 250px;
   min-width: 250px;
 }
@@ -316,7 +349,7 @@ button .navbar-toggler {
   z-index: 30;
   margin-left: 10rem;
   margin-right: 10rem;
-  margin-bottom: 15rem;
+  margin-bottom: 7rem;
 }
 
 /* .about-parent:after {
@@ -377,32 +410,12 @@ button .navbar-toggler {
   bottom: 50vh;
 }
 
-/* .arrow-down {
-  width: 0;
-  height: 0;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-
-  border-top: 20px solid #f00;
+@media screen and (max-width: 1480px) {
+  .about-side {
+    min-width: 150px;
+    min-height: 150px;
+  }
 }
-
-.arrow-right {
-  width: 0;
-  height: 0;
-  border-top: 60px solid transparent;
-  border-bottom: 60px solid transparent;
-
-  border-left: 60px solid green;
-}
-
-.arrow-left {
-  width: 0;
-  height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-
-  border-right: 10px solid blue;
-} */
 
 @media screen and (max-width: 1110px) {
   .about-wrapper {
@@ -443,7 +456,8 @@ button .navbar-toggler {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 3rem;
+  margin: 1rem;
+  padding-top: 3rem;
 }
 
 .portfolio-title,
@@ -458,9 +472,12 @@ h1 {
 .portfolio-container {
   padding-bottom: 3rem;
   /* padding-top: 5rem; */
-  padding: 5rem;
+  padding: 2rem 6rem 2rem 6rem;
 }
 
+.portfolio-card {
+  padding: 3rem;
+}
 /*----footer----*/
 
 .footer-container {
@@ -472,13 +489,19 @@ h1 {
   /* position: absolute;
   bottom: 0; */
   background-color: #1a1d29;
-  margin-top: 80px;
-  z-index: 21;
+
+  /* margin-top: 80px; */
+  z-index: 900;
 }
 .footer-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
   /* background-color: aliceblue; */
   width: 30rem;
   color: aliceblue;
+  font-size: 1.3rem;
   /* height: 4rem; */
 }
 
@@ -491,6 +514,10 @@ h1 {
   background-position: center;
 }
 .footer-social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
   /* background-color: violet; */
   color: aliceblue;
   width: 30rem;
@@ -499,7 +526,51 @@ h1 {
 
 /*----contact form----*/
 
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #1a1d29; */
+  background-color: var(--mid-purple);
+}
+
+h2.contact-title {
+  color: #fff;
+  margin: 2rem;
+  padding-top: 1rem;
+}
+
 .contact-form {
-  margin: 20rem;
-  padding-bottom: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin: 2rem; */
+  padding-bottom: 5rem;
+  min-width: 50vh;
+  z-index: 1000;
+}
+
+.contact-btn {
+  margin: 1rem;
+}
+
+#name,
+#email,
+#message {
+  width: 50vh;
+  margin: 0.5rem;
+  border: 2px solid var(--pink);
+  background: transparent;
+  width: 100%;
+  height: 40px;
+  color: white;
+}
+#message {
+  height: 200px;
+}
+
+input:-internal-autofill-selected {
+  background-color: -internal-dark;
 }
