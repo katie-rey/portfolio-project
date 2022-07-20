@@ -220,75 +220,6 @@ button .navbar-toggler {
   transform: scale(1.5);
 }
 
-@media screen and (max-width: 1110px) {
-  .profile-picture {
-    margin: 0 0px 0 80px;
-  }
-  .profile-details-name {
-    font-size: 20px;
-  }
-  .profile-details-role .primary-text {
-    font-size: 12px;
-  }
-  .profile-options .btn {
-    width: 120px;
-    padding: 11px 0;
-    z-index: 700;
-  }
-}
-
-@media screen and (max-width: 1480px) {
-  .about-side {
-    max-width: 150px;
-    max-height: 150px;
-  }
-}
-
-@media screen and (max-width: 910px) {
-  .profile-picture {
-    height: 320px;
-    width: 320px;
-    margin: 0 0 0 4px;
-  }
-}
-@media screen and (max-width: 810px) {
-  .header-wrapper {
-    /* height: 80vh; */
-  }
-  .profile-picture {
-    margin: 0 !important;
-  }
-  .profile-parent {
-    flex-direction: column-reverse;
-    margin: 40px 0 0 0;
-  }
-  .profile-options {
-    display: flex;
-    justify-content: space-between;
-  }
-  .profile-details {
-    margin: 25px 0 0;
-  }
-  .profile-options .highlighted-btn {
-    margin: 0 !important;
-  }
-  .profile-options,
-  .profile-details-role {
-    text-align: center;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .profile-picture {
-    height: 275px;
-    width: 275px;
-    margin-top: -90px;
-  }
-  .profile-details {
-    width: 90%;
-  }
-}
-
 /*----About----*/
 
 .about-wrapper {
@@ -333,8 +264,8 @@ h2.about {
   background-repeat: no-repeat;
   background-position: center;
 
-  min-height: 250px;
-  min-width: 250px;
+  min-height: 175px;
+  min-width: 175px;
 }
 
 .about-parent {
@@ -414,6 +345,10 @@ h2.about {
   .about-side {
     min-width: 150px;
     min-height: 150px;
+  }
+  .about-parent {
+    margin-left: 5rem;
+    margin-right: 5rem;
   }
 }
 
@@ -573,4 +508,91 @@ h2.contact-title {
 
 input:-internal-autofill-selected {
   background-color: -internal-dark;
+}
+
+/*----media queries----*/
+
+@media screen and (max-width: 1480px) {
+  .about-side {
+    max-width: 150px;
+    max-height: 150px;
+  }
+}
+
+@media screen and (max-width: 1290px) {
+  .profile-picture {
+    height: 350px;
+    width: 350px;
+    margin: 0 0 0 4px;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  .profile-picture {
+    height: 250px;
+    width: 250px;
+    margin: 0 0px 0 20px;
+  }
+
+  .profile-details {
+    margin-left: 10px;
+  }
+
+  .profile-details-name {
+    font-size: 20px;
+  }
+  .profile-details-role .primary-text {
+    font-size: 12px;
+  }
+  .profile-options .btn {
+    width: 120px;
+    padding: 11px 0;
+    z-index: 700;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .profile-picture {
+    /* height: 320px;
+    width: 320px; */
+    margin: 0 0 0 4px;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .header-wrapper {
+    /* height: 80vh; */
+  }
+  .profile-picture {
+    margin: 0 !important;
+  }
+  .profile-parent {
+    flex-direction: column-reverse;
+    margin: 40px 0 0 0;
+  }
+  .profile-options {
+    display: flex;
+    justify-content: space-between;
+  }
+  .profile-details {
+    margin: 25px 0 0;
+  }
+  .profile-options .highlighted-btn {
+    margin: 0 !important;
+  }
+  .profile-options,
+  .profile-details-role {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .profile-picture {
+    height: 275px;
+    width: 275px;
+    margin-top: -90px;
+  }
+  .profile-details {
+    width: 90%;
+  }
 }

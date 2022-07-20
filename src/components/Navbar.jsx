@@ -51,7 +51,7 @@ function Navbar() {
     <nav
       id="navbar"
       fixed="top"
-      className="navbar navbar-custom fixed-top navbar-expand-lg  justify-content-end"
+      className="navbar navbar-custom fixed-top navbar-expand-lg  d-flex justify-content-end"
     >
       <div className="container ">
         {/* <div className="container-fluid justify-content-end"> */}
