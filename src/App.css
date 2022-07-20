@@ -23,6 +23,7 @@ html,
   font-family: 'Roboto Condensed' sans-serif;
   /* color: var(--primary-white); */
   overflow-x: hidden;
+  min-width: 100%;
 }
 
 /*-------Nav------*/
@@ -31,6 +32,7 @@ html,
   /* background-color: #5c6691 !important; */
   /* background-color: black !important; */
   transition: 1s;
+  max-width: 100%;
 }
 
 .navbar.scrolled {
@@ -84,14 +86,13 @@ button .navbar-toggler {
 }
 
 .header-wrapper {
-  position: relative;
+  /* position: relative; */
   /* background-image: url('./assets/wall-and-laptop-background.jpg'); */
-
-  background-size: cover;
+  /* background-size: cover; */
   /* background-position: center; */
-  min-height: fit-content;
+  /* min-height: fit-content; */
   /* height: 100%; */
-  width: 100%;
+  /* width: 100%; */
 }
 
 .main-info {
@@ -341,24 +342,6 @@ h2.about {
   bottom: 50vh;
 }
 
-@media screen and (max-width: 1480px) {
-  .about-side {
-    min-width: 150px;
-    min-height: 150px;
-  }
-  .about-parent {
-    margin-left: 5rem;
-    margin-right: 5rem;
-  }
-}
-
-@media screen and (max-width: 1110px) {
-  .about-wrapper {
-    flex-direction: column;
-    justify-items: center;
-  }
-}
-
 .primary {
   color: #fff;
 }
@@ -442,7 +425,7 @@ h1 {
 
 .footer-logo {
   background-image: url('./assets/squiggle-dark.png');
-  width: 20rem;
+  width: 10rem;
   /* height: 4rem; */
   background-size: cover;
   background-repeat: no-repeat;
@@ -512,10 +495,22 @@ input:-internal-autofill-selected {
 
 /*----media queries----*/
 
+@media screen and (max-width: 1600px) {
+  .portfolio-container {
+    padding-bottom: 2rem;
+    /* padding-top: 5rem; */
+    padding: 1rem 4rem 1rem 4rem;
+  }
+}
+
 @media screen and (max-width: 1480px) {
   .about-side {
-    max-width: 150px;
-    max-height: 150px;
+    min-width: 150px;
+    min-height: 150px;
+  }
+  .about-parent {
+    margin-left: 5rem;
+    margin-right: 5rem;
   }
 }
 
@@ -524,6 +519,11 @@ input:-internal-autofill-selected {
     height: 350px;
     width: 350px;
     margin: 0 0 0 4px;
+  }
+  .portfolio-container {
+    /* padding-bottom: 2rem; */
+    /* padding-top: 5rem; */
+    padding: 1rem 2rem 1rem 2rem;
   }
 }
 
@@ -548,6 +548,15 @@ input:-internal-autofill-selected {
     width: 120px;
     padding: 11px 0;
     z-index: 700;
+  }
+  .about-wrapper {
+    flex-direction: column;
+    justify-items: center;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    justify-content: center;
   }
 }
 
@@ -583,6 +592,57 @@ input:-internal-autofill-selected {
   .profile-options,
   .profile-details-role {
     text-align: center;
+  }
+
+  .about-parent {
+    width: 70vh;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .header-wrapper {
+    padding: 1rem;
+  }
+  .about-details {
+    margin: 2rem;
+  }
+  .about-side {
+    min-width: 100px;
+    min-height: 100px;
+  }
+  .porftolio-card {
+    padding: 1rem;
+  }
+  .card-col {
+    margin: 0rem !important;
+    padding: 0.5rem;
+  }
+  .footer-container {
+    flex-direction: column;
+    min-height: 140px;
+  }
+  .footer-links {
+    flex-direction: row;
+    justify-content: space-around;
+    width: auto;
+  }
+  .footer-social {
+    flex-direction: row;
+    width: auto;
+  }
+  .container {
+    width: 60% !important;
+    margin: 0 10rem 0 0 !important;
+    padding: 0 !important;
+  }
+  .navbar {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .card-text {
+    display: none;
   }
 }
 

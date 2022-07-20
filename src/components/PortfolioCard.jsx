@@ -6,8 +6,8 @@ import portfolio from './portfolioHelper'
 
 function PortfolioCard() {
   return (
-    <div className="portfio-card m-4 p-4">
-      <Row xs={1} md={2} lg={3} className="g-4 p-4 m-4">
+    <div className="portfilo-card ">
+      <Row xs={1} md={2} lg={3} className="card-col g-4 p-4 ">
         {/* {Array.from({ length: 4 }).map((_, idx) => ( */}
         <Col>
           <Card className="card">
