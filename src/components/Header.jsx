@@ -21,9 +21,9 @@ export default function Header() {
     console.log(container)
   }
   return (
-    <div className="header-wrapper">
+    <div id="header-wrapper" className="header-wrapper">
       <div className="main-info">
-        <div className="profile-container">
+        <div id="profile-container" className="profile-container">
           <div className="profile-parent">
             <div className="profile-details">
               <div className="colz">

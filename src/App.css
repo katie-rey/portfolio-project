@@ -18,12 +18,13 @@ html,
 .body {
   min-height: 100vh;
   margin: 0 !important;
+
   /* background-color: #5c6691;
   background: linear-gradient(0deg, rgba(92, 102, 145, 1) 0%, rgba(0, 0, 0, 1) 100%); */
   font-family: 'Roboto Condensed' sans-serif;
   /* color: var(--primary-white); */
   overflow-x: hidden;
-  min-width: 100%;
+  /* min-width: 100%; */
 }
 
 .tsparticles {
@@ -31,6 +32,10 @@ html,
 }
 
 /*-------Nav------*/
+
+.navbar-container {
+  max-width: 100%;
+}
 
 .navbar {
   /* background-color: #5c6691 !important; */
@@ -241,7 +246,7 @@ button .navbar-toggler {
 .about-container {
   display: flex;
   align-items: center;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   /* border-radius: 20%; */
   /* border: 0.25rem solid;
   border-color: var(--pink);
@@ -278,14 +283,17 @@ h2.about {
   /* background-color: #3b425e; */
   /* background-color: #333952; */
   /* height: 30vh; */
-  width: 80vh;
+
+  /* width: 80vh; */
+
   /* position: relative;
   left: -1rem;
   bottom: 1rem; */
-  z-index: 30;
+
+  /* z-index: 30;
   margin-left: 10rem;
   margin-right: 10rem;
-  margin-bottom: 7rem;
+  margin-bottom: 7rem; */
 }
 
 /* .about-parent:after {
@@ -408,7 +416,7 @@ h1 {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-padding: 12rem 0rem;
+  padding: 12rem 0rem;
 }
 
 .portfolio-card-item {
@@ -422,7 +430,7 @@ padding: 12rem 0rem;
   flex-direction: row;
   justify-content: space-around;
   width: 100%;
-  min-height: 200px;
+  min-height: 120px;
   /* position: absolute;
   bottom: 0; */
   background-color: #1a1d29;
@@ -486,7 +494,7 @@ h2.contact-title {
   justify-content: center;
   /* margin: 2rem; */
   padding-bottom: 5rem;
-  min-width: 50vh;
+  /* min-width: 50vh; */
   z-index: 1000;
 }
 
@@ -528,10 +536,10 @@ input:-internal-autofill-selected {
     min-width: 150px;
     min-height: 150px;
   }
-  .about-parent {
+  /* .about-parent {
     margin-left: 5rem;
     margin-right: 5rem;
-  }
+  } */
 }
 
 @media screen and (max-width: 1290px) {
@@ -613,9 +621,11 @@ input:-internal-autofill-selected {
   .profile-details-role {
     text-align: center;
   }
+}
 
-  .about-parent {
-    width: 70vh;
+@media screen and (min-width: 650px) {
+  .about-details {
+    padding: 7rem;
   }
 }
 
@@ -623,13 +633,13 @@ input:-internal-autofill-selected {
   .header-wrapper {
     padding: 1rem;
   }
-  .about-details {
+  /* .about-details {
     margin: 2rem;
   }
   .about-side {
     min-width: 100px;
     min-height: 100px;
-  }
+  } */
   .porftolio-card {
     padding: 1rem;
   }
@@ -641,6 +651,7 @@ input:-internal-autofill-selected {
     flex-direction: column;
     min-height: 140px;
   }
+
   .footer-links {
     font-size: 1rem;
     margin-top: 1rem;
@@ -655,12 +666,21 @@ input:-internal-autofill-selected {
     width: auto;
   }
   .container {
-    width: 60% !important;
-    margin: 0 10rem 0 0 !important;
-    padding: 0 !important;
+    /* width: 60% !important; */
+    /* margin: 0 10rem 0 0 !important; */
+    /* padding: 0 !important; */
   }
-  .navbar {
+  /* .navbar {
     width: 100% !important;
+  } */
+  /* .about-parent {
+    padding: 1rem;
+  } */
+}
+
+@media screen and (min-width: 450px) {
+  .contact-form {
+    width: 60%;
   }
 }
 
@@ -668,9 +688,25 @@ input:-internal-autofill-selected {
   .card-text {
     display: none;
   }
-  .footer-links {
-    font-size: 2rem;
-}
+  .footer-social.fa-github {
+    font-size: 0.5rem;
+  }
+  .fa-github {
+    font-size: 10px;
+  }
+  svg.fa-github {
+    font-size: 10px;
+  }
+  /* .checked {
+    display: none;
+  } */
+  .portfolio-card,
+  .portfolio-container,
+  .card,
+  .portfolio-wrapper {
+    margin: 0;
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -681,5 +717,14 @@ input:-internal-autofill-selected {
   }
   .profile-details {
     width: 90%;
+  }
+  .portfolio-wrapper {
+    /* display: none; */
+  }
+  .contact {
+    margin-top: 1rem;
+  }
+  .footer-links {
+    font-size: 0.8rem;
   }
 }

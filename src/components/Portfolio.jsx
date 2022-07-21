@@ -7,11 +7,14 @@ export default function Portfolio() {
 
   return (
     <div id="portfolio" className="portfolio-wrapper">
-      <h2 className="portfolio-title">Portfolio</h2>
+      <h2 id="portfolio-title" className="portfolio-title">
+        Portfolio
+      </h2>
 
       <div className="portfolio-container">
         <PortfolioCard />
       </div>
+      <div id="portfolio-bottom"></div>
     </div>
   )
 }

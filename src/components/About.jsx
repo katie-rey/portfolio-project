@@ -80,7 +80,7 @@ export default function About() {
         </ListItem>
         </List>
       </div> */}
-      <div className="about-side"></div>
+      <div id="about-side" className="about-side"></div>
     </div>
   )
 }
