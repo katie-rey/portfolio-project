@@ -414,6 +414,11 @@ h1 {
   flex-direction: row;
   justify-content: space-between;
 }
+
+.img-fluid {
+ padding: 1rem; 
+}
+
 /*----portfolio card item----*/
 
 .card-item-wrapper {

@@ -35,7 +35,10 @@ function PortfolioCard() {
                    
                     <Modal.Title>{modalData?.title}</Modal.Title>
                   </Modal.Header>
-                  <Modal.Body>{modalData?.largeDesc}</Modal.Body>
+                  <Modal.Body>
+                  <img src={modalData?.image} alt="G1s" width="1080" className="img-fluid"/>
+                  {" "}
+                    {modalData?.largeDesc}</Modal.Body>
                 
                   <Modal.Footer className="modal-footer">
                   <a href={modalData?.gitUrl}>View Code </a>
