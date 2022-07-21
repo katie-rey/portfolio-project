@@ -409,6 +409,11 @@ h1 {
   padding: 3rem;
 }
 
+.modal-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 /*----portfolio card item----*/
 
 .card-item-wrapper {

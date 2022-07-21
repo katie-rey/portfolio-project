@@ -5,10 +5,11 @@ import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
 import portfolio from './portfolioHelper'
 import Modal from 'react-bootstrap/Modal'
+import { TimeToLeaveSharp } from '@mui/icons-material'
 
 function PortfolioCard() {
   const [show, setShow] = useState(false)
-  const [showTwo, setShowTwo] = useState(false)
+  const [modalData, setModalData] = useState(null);
 
   const handleClose = () => setShow(false)
   const handleShow = () => setShow(true)
@@ -23,16 +24,22 @@ function PortfolioCard() {
               <Card.Body>
                 <Card.Title>{item.title}</Card.Title>
                 <Card.Text>{item.desc}</Card.Text>
-                <Button variant="dark" onClick={handleShow}>
+                <Button variant="dark" onClick={()=> {
+                  setShow(true);
+                      setModalData(item)}}>
                   View
                 </Button>
 
                 <Modal show={show} onHide={handleClose}>
                   <Modal.Header closeButton>
-                    <Modal.Title>{item.title}</Modal.Title>
+                   
+                    <Modal.Title>{modalData?.title}</Modal.Title>
                   </Modal.Header>
-                  <Modal.Body>{item.largeDesc}</Modal.Body>
-                  <Modal.Footer>
+                  <Modal.Body>{modalData?.largeDesc}</Modal.Body>
+                
+                  <Modal.Footer className="modal-footer">
+                  <a href={modalData?.gitUrl}>View Code </a>
+                  <a href={modalData?.liveSite}>Live site </a>
                     <Button variant="secondary" onClick={handleClose}>
                       Close
                     </Button>
