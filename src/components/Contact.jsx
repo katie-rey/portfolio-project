@@ -5,7 +5,7 @@ function Contact() {
   if (state.succeeded) {
     return (
       <div className="contact-message">
-        <p>Thanks for your message! I'll be on contact shortly.</p>
+        <p>Thanks for your message! I'll be in contact shortly.</p>
       </div>
     )
   }

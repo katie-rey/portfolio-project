@@ -502,6 +502,19 @@ h1 {
 
 /*----contact form----*/
 
+.contact-message {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-message p {
+  color: white;
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+
 .contact {
   display: flex;
   flex-direction: column;
