@@ -69,19 +69,6 @@ export default function Header() {
                       wrapper="a"
                       repeat={3}
                     />
-                    {/* <Typical
-                      loop={Infinity}
-                      steps={[
-                        'Enthusiastic Dev',
-                        1000,
-                        'Full Stack Developer',
-                        1000,
-                        'React/Redux',
-                        1000,
-                        'Javascript',
-                        1000,
-                      ]}
-                    /> */}
                   </h1>
                 </span>
                 <span className="profile-role-tagline">
@@ -93,9 +80,9 @@ export default function Header() {
                   <button className="btn btn-dark highlighted-btn">Hire Me</button>
                 </a>
 
-                {/* <a href="#" className="resume primary-text" download="Katie katie-rey-cv">
+                <a href="#" className="resume primary-text" download="Katie katie-rey-cv">
                   <button className="btn btn-dark highlighted-btn ">Get Resume</button>
-                </a> */}
+                </a>
               </div>
             </div>
             <div className="profile-picture">
