@@ -111,7 +111,7 @@ function Navbar() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#contact">
+                <a className="nav-link" href="https://github.com/katie-rey">
                   <FaGithub size={30} />
                 </a>
               </li>
@@ -120,7 +120,7 @@ function Navbar() {
               <li className="nav-item"> {''}</li>
               <li className="nav-item"> {''}</li>
               <li className="nav-item">
-                <a className="nav-link" href="#contact">
+                <a className="nav-link" href="https://www.linkedin.com/in/katie-rey-7425a530/">
                   <FaLinkedin size={30} />
                 </a>
               </li>

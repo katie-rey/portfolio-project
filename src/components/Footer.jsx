@@ -13,8 +13,12 @@ export default function Footer() {
       </div>
       <div className="footer-logo"></div>
       <div className="footer-social">
-        <FaGithub className="fa-github" size={40} />
-        <FaLinkedin size={40} />
+        <a className="footer-link" href="https://github.com/katie-rey">
+          <FaGithub size={40} />
+        </a>
+        <a className="footer-link" href="https://www.linkedin.com/in/katie-rey-7425a530/">
+          <FaLinkedin size={40} />
+        </a>
       </div>
     </div>
   )

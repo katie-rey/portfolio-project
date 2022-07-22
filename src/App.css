@@ -31,6 +31,9 @@ html,
   max-width: 60%;
 }
 
+a {
+  color: white !important;
+}
 /*-------Nav------*/
 
 .navbar-container {
@@ -228,6 +231,16 @@ button .navbar-toggler {
 
 .colz .colz-icon i:hover {
   transform: scale(1.5);
+}
+
+h1 {
+  color: var(--pink);
+}
+.type-animation {
+  color: var(--pink) !important;
+}
+a.styles_type_2Teeh {
+  color: var(--pink) !important;
 }
 
 /*----About----*/

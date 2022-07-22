@@ -2,11 +2,12 @@ import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import Particles from 'react-tsparticles'
 import { loadFull } from 'tsparticles'
-import Typical from 'react-typical'
+// import Typical from 'react-typical'
 import About from './About'
 import Footer from './Footer'
 import Portfolio from './Portfolio'
 import Contact from './Contact'
+import TypeAnimation from 'react-type-animation'
 
 // const ParticlesContainer = () => {
 
@@ -52,7 +53,23 @@ export default function Header() {
                 <span className="primary-text">
                   {' '}
                   <h1>
-                    <Typical
+                    <TypeAnimation
+                      className="type-animation"
+                      cursor={true}
+                      sequence={[
+                        'Enthusiastic Dev',
+                        1000,
+                        'Full Stack Developer',
+                        1000,
+                        'React/Redux',
+                        1000,
+                        'Javascript',
+                        1000,
+                      ]}
+                      wrapper="a"
+                      repeat={3}
+                    />
+                    {/* <Typical
                       loop={Infinity}
                       steps={[
                         'Enthusiastic Dev',
@@ -64,18 +81,21 @@ export default function Header() {
                         'Javascript',
                         1000,
                       ]}
-                    />
+                    /> */}
                   </h1>
                 </span>
                 <span className="profile-role-tagline">
-                  Building full stack react websites through Dev Academy teachings
+                  Building front-end and full-stack react web apps
                 </span>
               </div>
               <div className="profile-options">
-                <button className="btn btn-dark highlighted-btn">Hire Me</button>
-                <a href="#" className="resume primary-text" download="Katie katie-rey-cv">
-                  <button className="btn btn-dark highlighted-btn ">Get Resume</button>
+                <a href="#contact" className="resume primary-text">
+                  <button className="btn btn-dark highlighted-btn">Hire Me</button>
                 </a>
+
+                {/* <a href="#" className="resume primary-text" download="Katie katie-rey-cv">
+                  <button className="btn btn-dark highlighted-btn ">Get Resume</button>
+                </a> */}
               </div>
             </div>
             <div className="profile-picture">
