@@ -415,8 +415,15 @@ h1 {
   justify-content: space-between;
 }
 
-.img-fluid {
- padding: 1rem; 
+.img-fluid,
+.modal-stack {
+  padding: 1rem;
+  text-align: center;
+}
+
+.modal-stack {
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 /*----portfolio card item----*/

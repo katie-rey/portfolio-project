@@ -9,7 +9,7 @@ import { TimeToLeaveSharp } from '@mui/icons-material'
 
 function PortfolioCard() {
   const [show, setShow] = useState(false)
-  const [modalData, setModalData] = useState(null);
+  const [modalData, setModalData] = useState(null)
 
   const handleClose = () => setShow(false)
   const handleShow = () => setShow(true)
@@ -24,25 +24,28 @@ function PortfolioCard() {
               <Card.Body>
                 <Card.Title>{item.title}</Card.Title>
                 <Card.Text>{item.desc}</Card.Text>
-                <Button variant="dark" onClick={()=> {
-                  setShow(true);
-                      setModalData(item)}}>
+                <Button
+                  variant="dark"
+                  onClick={() => {
+                    setShow(true)
+                    setModalData(item)
+                  }}
+                >
                   View
                 </Button>
 
                 <Modal show={show} onHide={handleClose}>
                   <Modal.Header closeButton>
-                   
                     <Modal.Title>{modalData?.title}</Modal.Title>
                   </Modal.Header>
                   <Modal.Body>
-                  <img src={modalData?.image} alt="G1s" width="1080" className="img-fluid"/>
-                  {" "}
-                    {modalData?.largeDesc}</Modal.Body>
-                
+                    <img src={modalData?.image} alt="G1s" width="1080" className="img-fluid" />{' '}
+                    {modalData?.largeDesc}
+                  </Modal.Body>{' '}
+                  <span className="modal-stack">{modalData?.stack}</span>
                   <Modal.Footer className="modal-footer">
-                  <a href={modalData?.gitUrl}>View Code </a>
-                  <a href={modalData?.liveSite}>Live site </a>
+                    <a href={modalData?.gitUrl}>View Code </a>
+                    <a href={modalData?.liveSite}>Live site </a>
                     <Button variant="secondary" onClick={handleClose}>
                       Close
                     </Button>
