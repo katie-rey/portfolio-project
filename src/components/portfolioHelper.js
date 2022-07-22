@@ -11,7 +11,7 @@ const portfolio = [
   },
   {
     image: '/shop.png',
-    title: 'An personalised pantry and shopping list',
+    title: 'A personalised pantry and shopping list',
     desc: 'Build you own master pantry list and daily shopping list with this full-stack app.',
     largeDesc:
       "This app was built to solve an ongoing problem of mine. Existing shopping apps I use don't have functionality to keep a master list of general items as well creating a seperate daily shopping list. This web app allows you to add to the master list, transfer items to a daily list and delete items when required. ",
