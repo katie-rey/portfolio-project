@@ -25,8 +25,8 @@ export default function About() {
             </p>
             <p className="primary-text">
               With a background in Graphic Design, I naturally gravitated towards front end
-              development. I have developed skills developing web apps using React and Redux, and
-              full-stack with node and Express,js.
+              development. I have skills developing web apps using React and Redux, and full-stack
+              apps with node and Express,js.
             </p>
             <p>
               Human skills development and personal growth have played a large part in my dev
