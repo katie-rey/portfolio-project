@@ -80,7 +80,7 @@ export default function Header() {
                   <button className="btn btn-dark highlighted-btn">Hire Me</button>
                 </a>
 
-                <a href="katie-rey-dev.pdf" className="resume primary-text" download="katie-rey-cv">
+                <a href="katie-rey-cv.pdf" className="resume primary-text" download="katie-rey-cv">
                   <button className="btn btn-dark highlighted-btn ">Get Resume</button>
                 </a>
               </div>
