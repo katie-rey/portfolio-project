@@ -59,7 +59,7 @@ export default function Header() {
                       sequence={[
                         'Enthusiastic Dev',
                         1000,
-                        'Full Stack Developer',
+                        'Full-Stack Developer',
                         1000,
                         'React/Redux',
                         1000,
@@ -80,7 +80,7 @@ export default function Header() {
                   <button className="btn btn-dark highlighted-btn">Hire Me</button>
                 </a>
 
-                <a href="#" className="resume primary-text" download="Katie katie-rey-cv">
+                <a href="katie-rey-dev.pdf" className="resume primary-text" download="katie-rey-cv">
                   <button className="btn btn-dark highlighted-btn ">Get Resume</button>
                 </a>
               </div>
