@@ -24,9 +24,15 @@ export default function About() {
               week bootcamp, designed to produce awesome full stack developers.{' '}
             </p>
             <p className="primary-text">
-              Human skills development and persoanl growth played a large part in my EDA journey,
-              where I developed my intepersonal or soft skills. Active listening, NVC (non violent
-              communications) and XXX are some of the valuable skills I have learnt .....{' '}
+              With a background in Graphic Design, I naturally gravitated towards front end
+              development. I have developed skills developing web apps using React and Redux, and
+              full-stack with node and Express,js.
+            </p>
+            <p>
+              Human skills development and personal growth have played a large part in my dev
+              journey.Active listening, NVC (non violent communications) and giving/receiving growth
+              feedback are some of the valuable skills I have developed, ready to bring to my next
+              project and team.{' '}
             </p>
 
             {/* <div class="arrow-up"></div> */}
