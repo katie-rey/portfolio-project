@@ -26,66 +26,24 @@ export default function About() {
             <p className="primary-text">
               With a background in Graphic Design, I naturally gravitated towards front end
               development. I have skills developing web apps using React and Redux, and full-stack
-              apps with node and Express,js.
+              apps with node and Express.js.
             </p>
             <p>
               Human skills development and personal growth have played a large part in my dev
-              journey.Active listening, NVC (non violent communications) and giving/receiving growth
-              feedback are some of the valuable skills I have developed, ready to bring to my next
-              project and team.{' '}
+              journey. Active listening, giving growth feedback and the ability to receive constructive feedback are some of the valuable skills I have developed through Dev Academy. 
+              I am now ready to bring these skills to my next challenge!{' '}
             </p>
-
-            {/* <div class="arrow-up"></div> */}
           </div>
           <div className="about-details-stack">
             <span className="techstack-text">
               Javascript · React · Redux · webpack · node · npm · Express · SQLite3 · MongoDB ·
-              Netlify · Github
+              Netlify  · 
             </span>
-            <span className="primary-text">HTML · CSS · Bootstrap · MUI · Bulma · Flowbite </span>
-
-            {/* <div class="arrow-up"></div> */}
+            {" "}
+            <span className="primary-text">Github · HTML · CSS · Bootstrap · MUI · Bulma · Flowbite </span>
           </div>
         </div>
       </div>
-      {/* <div className="about-skills">
-        <Typography sx={{ mt: 4, mb: 2 }} variant="h6" component="div">
-        Tech Skills
-        </Typography>
-        
-        <List dense={dense}>
-        <ListItem>
-        <ListItemIcon>
-        <Javascript />
-        </ListItemIcon>
-        <ListItemText primary="Javascript" />
-        </ListItem>
-        <ListItem>
-        <ListItemIcon>
-        <Javascript />
-        </ListItemIcon>
-        <ListItemText primary="React/Redux" />
-        </ListItem>
-        <ListItem>
-        <ListItemIcon>
-        <Javascript />
-        </ListItemIcon>
-        <ListItemText primary="SQLite with Knex" />
-        </ListItem>
-        <ListItem>
-        <ListItemIcon>
-        <Javascript />
-        </ListItemIcon>
-        <ListItemText primary="HTML/CSS" />
-        </ListItem>
-        <ListItem>
-        <ListItemIcon>
-        <Javascript />
-        </ListItemIcon>
-        <ListItemText primary="Next.js" />
-        </ListItem>
-        </List>
-      </div> */}
       <div id="about-side" className="about-side"></div>
     </div>
   )

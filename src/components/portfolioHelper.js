@@ -2,7 +2,7 @@ const portfolio = [
   {
     image: '/surfNew.png',
     title: 'Piha Surf Report',
-    desc: 'See the weather and surf conditions at Piha. ',
+    desc: 'See the weather and surf conditions at Piha Beach. ',
     largeDesc:
       'Living in Piha, a remote surf beach on the west coast of Auckland, the conditions change regularly. I wanted to build a small concise app that depicts the weather and surf conditions for my local community. This was completed by developing a full-stack react app, calling a weather REST api with unique key. The app was primarily built for mobile devices and includes weather icons and a projected forecast for tomorrow. ',
     gitUrl: 'https://github.com/katie-rey/piha-surf-app',
@@ -17,7 +17,8 @@ const portfolio = [
       "This app was built to solve an ongoing problem of mine. Existing shopping apps I use don't have functionality to keep a master list of general items as well creating a seperate daily shopping list. This web app allows you to add to the master list, transfer items to a daily list and delete items when required. ",
     gitUrl: 'https://github.com/katie-rey/shopping-list',
     // liveSite: 'TBC',
-    stack: 'Javascript, React, Redux, Express, Knex, SQLite3, Bulma, React-Icons',
+    stack:
+      'Javascript, React, Redux, Express, Knex, SQLite3, Bulma, React-Icons',
   },
   {
     image: '/feedback.png',
@@ -27,7 +28,8 @@ const portfolio = [
       'Once completing my web dev bootcamp, I wanted to practice using react and useContext for storing data into state. This app was built as part of a Udemy React course. Credit to Brad Traversy for writing the course.',
     gitUrl: 'https://github.com/katie-rey/react-feedback-app',
     liveSite: 'https://dainty-lily-f557a9.netlify.app/',
-    stack: 'Javascript, React, React-Router-Dom, useContext, Framer Motion, uuid, React-Icons',
+    stack:
+      'Javascript, React, React-Router-Dom, useContext, Framer Motion, uuid, React-Icons',
   },
   {
     image: '/serv.png',
@@ -37,7 +39,8 @@ const portfolio = [
       'For my final project with Dev Academy, myself and three other students built a full-stack react app linking customers with service oriented businesses. My primary role within the team was front end lead, building the business components and business logic. This project helped strengthen my communication skills within a team setting. The final MVP incorporates a checkout using Stripe, where customers can pay for the service completed by the provider.',
     gitUrl: 'https://github.com/katie-rey/serv',
     liveSite: 'https://serv-site.herokuapp.com/',
-    stack: 'Javascript, React, Redux, Express, Knex, SQLite3, node, Stripe, Bootstrap, React-Icons',
+    stack:
+      'Javascript, React, Redux, Express, Knex, SQLite3, node, Stripe, Bootstrap, React-Icons',
   },
   {
     image: '/play.png',
