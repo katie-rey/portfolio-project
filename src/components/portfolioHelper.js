@@ -2,7 +2,7 @@ const portfolio = [
   {
     image: '/surfNew.png',
     title: 'Piha Surf Report',
-    desc: 'See the weather and surf conditions at Piha. ',
+    desc: 'See the weather and surf conditions at Piha Beach. ',
     largeDesc:
       'Living in Piha, a remote surf beach on the west coast of Auckland, the conditions change regularly. I wanted to build a small concise app that depicts the weather and surf conditions for my local community. This was completed by developing a full-stack react app, calling a weather REST api with unique key. The app was primarily built for mobile devices and includes weather icons and a projected forecast. ',
     gitUrl: 'https://github.com/katie-rey/piha-surf-app',

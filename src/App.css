@@ -678,11 +678,11 @@ input:-internal-autofill-selected {
   }
   /* .about-details {
     margin: 2rem;
-  }
+  } */
   .about-side {
     min-width: 100px;
     min-height: 100px;
-  } */
+  } 
   .porftolio-card {
     padding: 1rem;
   }
@@ -749,6 +749,10 @@ input:-internal-autofill-selected {
   .portfolio-wrapper {
     margin: 0;
     padding: 0;
+  }
+  .main-info, 
+  .about-wrapper {
+    margin-bottom: 65px;
   }
 }
 
