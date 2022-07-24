@@ -6,7 +6,7 @@ const portfolio = [
     largeDesc:
       'Living in Piha, a remote surf beach on the west coast of Auckland, the conditions change regularly. I wanted to build a small concise app that depicts the weather and surf conditions for my local community. This was completed by developing a full-stack react app, calling a weather REST api. The app was primarily built for mobile devices and includes weather icons and a projected forecast. ',
     gitUrl: 'https://github.com/katie-rey/piha-surf-app',
-    liveSite: 'https://katie-rey.dev/unavailable',
+    liveSite: '',
     stack: 'Javascript, React, Axios, Cors, Dotenv, Material UI, Font Awesome',
   },
   {
@@ -16,8 +16,7 @@ const portfolio = [
     largeDesc:
       "This app was built to solve an ongoing problem of mine. Existing shopping apps I use don't have functionality to keep a master list of general items as well creating a seperate daily shopping list. This web app allows you to add to the master list, transfer items to a daily list and delete items when required. ",
     gitUrl: 'https://github.com/katie-rey/shopping-list',
-
-    liveSite: 'https://katie-rey.dev/unavailable',
+    liveSite: '',
     stack: 'Javascript, React, Redux, Express, Knex, SQLite3, Bulma, React-Icons',
   },
   {

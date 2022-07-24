@@ -101,7 +101,11 @@ function Navbar() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#about-side">
+                <a
+                  className="nav-link"
+                  href="#portfolio-top"
+                  // href="#about-side"
+                >
                   Portfolio
                 </a>
               </li>

@@ -54,7 +54,7 @@ function PortfolioCard() {
             <Button variant="info" href={modalData?.gitUrl}>
               View code
             </Button>
-            <Button variant="info" href={modalData?.liveSite}>
+            <Button variant="info" href={modalData?.liveSite ? modalData.liveSite : '/unavailable'}>
               Live site
             </Button>
 
