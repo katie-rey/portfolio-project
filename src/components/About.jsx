@@ -21,10 +21,10 @@ export default function About() {
             <h2 className="about">About Me</h2>
             <p className="primary-text">
               {''}I am a recent graduate of the Enspiral Dev Academy, an intense and immersive 15
-              week bootcamp, designed to produce awesome full stack developers.{' '}
+              week bootcamp, designed to produce awesome full-stack developers.{' '}
             </p>
             <p className="primary-text">
-              With a background in Graphic Design, I naturally gravitated towards front end
+              With a background in Design, I naturally gravitated towards front end
               development. I have skills developing web apps using React and Redux, and full-stack
               apps with node and Express.js.
             </p>

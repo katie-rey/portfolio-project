@@ -2,9 +2,9 @@ const portfolio = [
   {
     image: '/surfNew.png',
     title: 'Piha Surf Report',
-    desc: 'See the weather and surf conditions at Piha Beach. ',
+    desc: 'View the weather and surf conditions at Piha Beach. ',
     largeDesc:
-      'Living in Piha, a remote surf beach on the west coast of Auckland, the conditions change regularly. I wanted to build a small concise app that depicts the weather and surf conditions for my local community. This was completed by developing a full-stack react app, calling a weather REST api with unique key. The app was primarily built for mobile devices and includes weather icons and a projected forecast. ',
+      'Living in Piha, a remote surf beach on the west coast of Auckland, the conditions change regularly. I wanted to build a small concise app that depicts the weather and surf conditions for my local community. This was completed by developing a full-stack react app, calling a weather REST api. The app was primarily built for mobile devices and includes weather icons and a projected forecast. ',
     gitUrl: 'https://github.com/katie-rey/piha-surf-app',
     liveSite: 'https://katie-rey.dev/unavailable',
     stack: 'Javascript, React, Axios, Cors, Dotenv, Material UI, Font Awesome',
@@ -16,15 +16,16 @@ const portfolio = [
     largeDesc:
       "This app was built to solve an ongoing problem of mine. Existing shopping apps I use don't have functionality to keep a master list of general items as well creating a seperate daily shopping list. This web app allows you to add to the master list, transfer items to a daily list and delete items when required. ",
     gitUrl: 'https://github.com/katie-rey/shopping-list',
+
     liveSite: 'https://katie-rey.dev/unavailable',
     stack: 'Javascript, React, Redux, Express, Knex, SQLite3, Bulma, React-Icons',
   },
   {
     image: '/feedback.png',
-    title: 'A react feedback app',
-    desc: 'A little web app to create, edit and delete feedback, using useContext.',
+    title: 'A React feedback app',
+    desc: 'A web app to create, edit and delete feedback using useContext.',
     largeDesc:
-      'Once completing my web dev bootcamp, I wanted to practice using react and useContext for storing data into state. This app was built as part of a Udemy React course. Credit to Brad Traversy for writing the course.',
+      'Once completing my web dev bootcamp, I wanted to practice using React and useContext for storing data into state. This app was built as part of a Udemy React course. Credit to Brad Traversy for writing the course.',
     gitUrl: 'https://github.com/katie-rey/react-feedback-app',
     liveSite: 'https://dainty-lily-f557a9.netlify.app/',
     stack: 'Javascript, React, React-Router-Dom, useContext, Framer Motion, uuid, React-Icons',
@@ -34,7 +35,7 @@ const portfolio = [
     title: 'My final group project at Dev Academy',
     desc: 'A web app connecting service businesses with customers.',
     largeDesc:
-      'For my final project with Dev Academy, myself and four other students buil (in 6 days) a full-stack react app linking customers with service oriented businesses. My primary role within the team was front end lead, building the business components and business logic. This project helped strengthen my communication skills within a team setting and build my coding confidence in a high pressure, short timeframe build. The final MVP incorporates Auth0 login, both Business and Customer interfaces and an integrated Stripe checkout for customers.',
+      'For my final project with Dev Academy, myself and four other students built (in 6 days) a full-stack React app linking customers with service oriented businesses. My primary role within the team was front end lead, building the business components and business logic. This project helped strengthen my communication skills within a team setting and built my coding confidence in a high pressure, short timeframe build. The final MVP incorporates Auth0 login, both Business and Customer interfaces and an integrated Stripe checkout for customers.',
     gitUrl: 'https://github.com/katie-rey/serv',
     liveSite: 'https://katie-rey.dev/unavailable',
     stack:
