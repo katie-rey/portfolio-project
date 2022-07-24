@@ -6,6 +6,7 @@ import Button from 'react-bootstrap/Button'
 import portfolio from './portfolioHelper'
 import Modal from 'react-bootstrap/Modal'
 import { TimeToLeaveSharp } from '@mui/icons-material'
+import { Container } from 'react-bootstrap'
 
 function PortfolioCard() {
   const [show, setShow] = useState(false)
@@ -33,28 +34,40 @@ function PortfolioCard() {
                 >
                   View
                 </Button>
-
-                <Modal show={show} onHide={handleClose}>
-                  <Modal.Header closeButton>
-                    <Modal.Title>{modalData?.title}</Modal.Title>
-                  </Modal.Header>
-                  <Modal.Body>
-                    <img src={modalData?.image} alt="G1s" width="1080" className="img-fluid" />{' '}
-                    {modalData?.largeDesc}
-                  </Modal.Body>{' '}
-                  <span className="modal-stack">{modalData?.stack}</span>
-                  <Modal.Footer className="modal-footer">
-                    <a href={modalData?.gitUrl}>View Code </a>
-                    <a href={modalData?.liveSite}>Live site </a>
-                    <Button variant="secondary" onClick={handleClose}>
-                      Close
-                    </Button>
-                  </Modal.Footer>
-                </Modal>
               </Card.Body>
             </Card>
           </Col>
         ))}
+        <Modal animation={false} show={show} onHide={handleClose}>
+          <Modal.Header closeButton>
+            <Modal.Title>{modalData?.title}</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            <img src={modalData?.image} alt="G1s" width="1080" className="img-fluid" />{' '}
+            <Container>
+              <Row>{modalData?.largeDesc} </Row>
+              <Row>{modalData?.stack} </Row>
+            </Container>
+            {/* <div className="modal-stack">{modalData?.stack}</div> */}
+          </Modal.Body>{' '}
+          <Modal.Footer className="modal-footer">
+            <Button variant="info" href={modalData?.gitUrl}>
+              View code
+            </Button>
+            <Button variant="info" href={modalData?.liveSite}>
+              Live site
+            </Button>
+
+            {/* <a href={modalData?.gitUrl} class="btn btn-info" role="button">
+              Li
+            </a>
+            <a href={modalData?.gitUrl}>View Code </a>
+            <a href={modalData?.liveSite}>Live site </a> */}
+            <Button variant="secondary" onClick={handleClose}>
+              Close
+            </Button>
+          </Modal.Footer>
+        </Modal>
       </Row>
     </div>
   )

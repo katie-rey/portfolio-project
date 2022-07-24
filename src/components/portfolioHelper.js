@@ -6,7 +6,7 @@ const portfolio = [
     largeDesc:
       'Living in Piha, a remote surf beach on the west coast of Auckland, the conditions change regularly. I wanted to build a small concise app that depicts the weather and surf conditions for my local community. This was completed by developing a full-stack react app, calling a weather REST api with unique key. The app was primarily built for mobile devices and includes weather icons and a projected forecast. ',
     gitUrl: 'https://github.com/katie-rey/piha-surf-app',
-    // liveSite: 'TBC',
+    liveSite: 'https://katie-rey.dev/unavailable',
     stack: 'Javascript, React, Axios, Cors, Dotenv, Material UI, Font Awesome',
   },
   {
@@ -16,7 +16,7 @@ const portfolio = [
     largeDesc:
       "This app was built to solve an ongoing problem of mine. Existing shopping apps I use don't have functionality to keep a master list of general items as well creating a seperate daily shopping list. This web app allows you to add to the master list, transfer items to a daily list and delete items when required. ",
     gitUrl: 'https://github.com/katie-rey/shopping-list',
-    // liveSite: 'TBC',
+    liveSite: 'https://katie-rey.dev/unavailable',
     stack: 'Javascript, React, Redux, Express, Knex, SQLite3, Bulma, React-Icons',
   },
   {
@@ -36,7 +36,7 @@ const portfolio = [
     largeDesc:
       'For my final project with Dev Academy, myself and four other students buil (in 6 days) a full-stack react app linking customers with service oriented businesses. My primary role within the team was front end lead, building the business components and business logic. This project helped strengthen my communication skills within a team setting and build my coding confidence in a high pressure, short timeframe build. The final MVP incorporates Auth0 login, both Business and Customer interfaces and an integrated Stripe checkout for customers.',
     gitUrl: 'https://github.com/katie-rey/serv',
-    // liveSite: 'https://serv-site.herokuapp.com/',
+    liveSite: 'https://katie-rey.dev/unavailable',
     stack:
       'Javascript, React, Redux, Express, Knex, SQLite3, node, Auth0, Stripe, Bootstrap, React-Icons',
   },

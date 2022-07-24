@@ -439,6 +439,36 @@ h1 {
   font-weight: 600;
 }
 
+/*----site unavailable----*/
+
+.site-container {
+  min-height: 100vh;
+  background-color: var(--dark-purple);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50vh 20vh 30vh 20vh;
+}
+
+.site-prmary-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: large;
+  /* padding: 300px; */
+  font-weight: 500;
+  color: #fff;
+}
+p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: larger !important;
+
+  font-weight: 500 !important;
+  color: #fff !important;
+}
+
 /*----portfolio card item----*/
 
 .card-item-wrapper {
@@ -682,7 +712,7 @@ input:-internal-autofill-selected {
   .about-side {
     min-width: 100px;
     min-height: 100px;
-  } 
+  }
   .porftolio-card {
     padding: 1rem;
   }
@@ -750,7 +780,7 @@ input:-internal-autofill-selected {
     margin: 0;
     padding: 0;
   }
-  .main-info, 
+  .main-info,
   .about-wrapper {
     margin-bottom: 65px;
   }

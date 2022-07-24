@@ -14,6 +14,7 @@ import Footer from './components/Footer'
 import Contact from './components/Contact'
 import PortfolioCard from './components/PortfolioCard'
 import PortfolioCardItem from './components/PortfolioCardItem'
+import SiteUnavailable from './components/SiteUnavailable'
 
 function App() {
   const [theme, setTheme] = useState('light')
@@ -29,7 +30,8 @@ function App() {
         <Route path="/" element={<Header />} />
         {/* <Route path="/about" element={<About />} /> */}
         {/* <Route path="/portfolio" element={<Portfolio />} /> */}
-        <Route path="/Card" element={<PortfolioCardItem />} />
+        <Route path="/Card " element={<PortfolioCardItem />} />
+        <Route path="/unavailable" element={<SiteUnavailable />} />
       </Routes>
       {/* <Contact /> */}
       <Footer />
