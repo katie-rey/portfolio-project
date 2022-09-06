@@ -36,7 +36,7 @@ const portfolio = [
     largeDesc:
       'For my final project with Dev Academy, myself and four other students built (in 6 days) a full-stack React app linking customers with service oriented businesses. My primary role within the team was front end lead, building the business components and business logic. This project helped strengthen my communication skills within a team setting and built my coding confidence in a high pressure, short timeframe build. The final MVP incorporates Auth0 login, both Business and Customer interfaces and an integrated Stripe checkout for customers.',
     gitUrl: 'https://github.com/katie-rey/serv',
-    liveSite: 'https://katie-rey.dev/unavailable',
+    liveSite: 'https://serv-site.herokuapp.com/',
     stack:
       'Javascript, React, Redux, Express, Knex, SQLite3, node, Auth0, Stripe, Bootstrap, React-Icons',
   },
